@@ -1,4 +1,4 @@
-import TheOffice from "../assets/the_office.jpg"
+import TheOffice from "../../assets/the_office.jpg"
 import "./home.css"
 
 function Home() {

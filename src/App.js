@@ -26,7 +26,12 @@ function App() {
   return (
     <div className="App">
       <Menu/>
+      <main>
         {renderContent()}
+      </main>
+      <footer>
+        The Office - 2023
+      </footer>
     </div>
   );
 }
