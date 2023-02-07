@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Menu from "./components/Menu/menu"
 import Home from './components/Home/home';
-import Personajes from './components/personajes';
-import Citas from './components/citas';
-import Episodios from './components/episodios';
+import Characters from './components/characters';
+import Quotes from './components/quotes';
+import Episodes from './components/episodes';
 
 function App() {
   const currentURL = window.location.pathname
@@ -12,12 +12,12 @@ function App() {
     switch (currentURL) {
       case "/":
         return <Home/>
-      case "/personajes":
-        return <Personajes/>
-      case "/citas":
-        return <Citas/>
-      case "/episodios":
-        return <Episodios/>
+      case "/characters":
+        return <Characters/>
+      case "/quotes":
+        return <Quotes/>
+      case "/episodes":
+        return <Episodes/>
       default:
         return <Home/>
     }

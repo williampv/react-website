@@ -11,16 +11,16 @@ function Menu() {
                 link="/"
             />
             <MenuItem
-                text="Personajes"
-                link="/personajes"
+                text="Characters"
+                link="/characters"
             />
             <MenuItem
-                text="Episodios"
-                link="/episodios"
+                text="Episodes"
+                link="/episodes"
             />
             <MenuItem
-                text="Citas"
-                link="/citas"
+                text="Quotes"
+                link="/quotes"
             />
         </ul>
         </nav>

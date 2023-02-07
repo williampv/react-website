@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 
-function Personajes() {
+function Characters() {
     const [character, setCharacter] = useState(null)
     useEffect(function getCharacters() {
         fetch('https://officeapi.dev/api/characters/random')
@@ -15,4 +15,4 @@ function Personajes() {
     )
 }
 
-export default Personajes
+export default Characters

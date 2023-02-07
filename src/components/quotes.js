@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 
-function Citas() {
+function Quotes() {
     const [quote, setQuote] = useState('null')
     useEffect(function getQuotes() {
         fetch('https://officeapi.dev/api/quotes/random')
@@ -15,4 +15,4 @@ function Citas() {
     )
 }
 
-export default Citas
+export default Quotes

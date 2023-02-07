@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-function Episodios() {
+function Episodes() {
     const [episode, setEpisode] = useState(null)
     const [shouldRefresh, setShouldRefresh] = useState(true)
     const [isLoading, setIsLoading] = useState(false)
@@ -22,6 +22,10 @@ function Episodios() {
         setShouldRefresh(true)
     }
 
+    if(isLoading) {
+        return (<div>Loading...</div>)
+    }
+
     return(
         <div>
             <button onClick={onRefresh}>Refresh</button>
@@ -33,4 +37,4 @@ function Episodios() {
     )
 }
 
-export default Episodios
+export default Episodes
