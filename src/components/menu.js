@@ -1,28 +1,26 @@
+import MenuItem from "./menu-item"
+
 function Menu() {
     return (
     <header className="App-header">
         <nav>
         <ul>
-            <li>
-            <a href="#">
-                Home
-            </a>
-            </li>
-            <li>
-            <a href="#">
-                Personajes
-            </a>
-            </li>
-            <li>
-            <a href="#">
-                Episodios
-            </a>
-            </li>
-            <li>
-            <a href="#">
-                Citas
-            </a>
-            </li>
+            <MenuItem
+                text="Home"
+                link="/"
+            />
+            <MenuItem
+                text="Personajes"
+                link="/personajes"
+            />
+            <MenuItem
+                text="Episodios"
+                link="/episodios"
+            />
+            <MenuItem
+                text="Citas"
+                link="/citas"
+            />
         </ul>
         </nav>
     </header>)
