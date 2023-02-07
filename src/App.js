@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Menu from "./components/menu"
+import Menu from "./components/Menu/menu"
 import Home from './components/home';
 import Personajes from './components/personajes';
 import Citas from './components/citas';
